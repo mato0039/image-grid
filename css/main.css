@@ -48,10 +48,34 @@ body {
 
   .photo:nth-child(2),
   .photo:nth-child(5) {
-    display: block;
+    display: inline-block;
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  .photo {
+    width: 33.3333%;
+  }
+
+  .photo:last-child {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .photo:first-child {
+    display: inline-block;
+    width: 66.6666%;
+  }
+
+  .photo:nth-child(2) {
+    width: 33.3333%;
+  }
+
+  .photo:last-child {
+    display: block;
+  }
 }
