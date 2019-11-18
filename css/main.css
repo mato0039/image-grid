@@ -49,6 +49,7 @@ body {
   .photo:nth-child(2),
   .photo:nth-child(5) {
     display: inline-block;
+  }
 
 }
 
